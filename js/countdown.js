@@ -5,11 +5,11 @@
  */
 
 // 生日月份和日期
-const BIRTHDAY_MONTH = 0; // 1月（0-11）
-const BIRTHDAY_DAY = 12;   // 12日
+const BIRTHDAY_MONTH = 11; // 1月（0-11）
+const BIRTHDAY_DAY = 16;   // 12日
 
 // 在一起的起始日期：2018年7月1日
-const START_DATE = new Date('2018-07-01T00:00:00');
+const START_DATE = new Date('2026-02-13T20:31:00');
 
 /**
  * 获取下一个生日日期
