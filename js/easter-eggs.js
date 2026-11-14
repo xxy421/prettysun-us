@@ -70,7 +70,7 @@ function showMusicHint() {
 // ========== 彩蛋2: 秘密入口 🔐 ==========
 let secretClickCount = 0;
 let secretClickTimer = null;
-const SECRET_PASSWORD = 'sun3469220';
+const SECRET_PASSWORD = '20260217';
 
 function initSecretEntrance() {
     const secretDot = document.getElementById('secretDot');
@@ -868,7 +868,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 检查是否是生日
     const now = new Date();
-    if (now.getMonth() === 0 && now.getDate() === 12) { // 1月12日
+    if (now.getMonth() === 10 && now.getDate() === 16) { // 1月12日
         setTimeout(triggerBirthdayEffect, 1000);
     }
 });
