@@ -5,10 +5,10 @@
  */
 
 // 恋爱开始日期：2018年7月1日
-const LOVE_START_DATE = new Date('2018-07-01T00:00:00');
+const LOVE_START_DATE = new Date('2026-02-17T20:31:00');
 
 // 年份范围：2018-2025
-const YEARS = [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025];
+const YEARS = [2026];
 
 // 动画常量
 const ANIMATION_FRAME_RATE_MS = 16; // 约60fps
