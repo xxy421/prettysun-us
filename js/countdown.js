@@ -5,7 +5,7 @@
  */
 
 // 生日月份和日期
-const BIRTHDAY_MONTH = 11; // 1月（0-11）
+const BIRTHDAY_MONTH = 10; // 1月（0-11）
 const BIRTHDAY_DAY = 16;   // 12日
 
 // 在一起的起始日期：2018年7月1日
