@@ -716,7 +716,13 @@ window.collectEasterEggImages = collectEasterEggImages;
  */
 function collectEasterEggImages() {
     // 根据实际的easter-eggs文件夹内容来收集图片
-    const allImages = [];
+    const allImages = [  { src: 'https://cdn.jsdelivr.net/gh/xxy421/prettysun-us@main/images/new1.jpg', alt: '照片1', caption: '看到这张照片就想到我们暑假的幸福生活，小猫给我们的小宝宝打扮的超级可爱嘛' },
+    { src: 'https://cdn.jsdelivr.net/gh/xxy421/prettysun-us@main/images/new2.jpg', alt: '照片2', caption: '这系xxy拯救pjr呀' },
+    { src: 'https://cdn.jsdelivr.net/gh/xxy421/prettysun-us@main/images/new3.jpg', alt: '照片3', caption: '嘿嘿嘿 我们的第一的小猫宝宝 小薯条呀' },
+    { src: 'https://cdn.jsdelivr.net/gh/xxy421/prettysun-us@main/images/new4.jpg', alt: '照片4', caption: '小宝宝给我做的小杯垫 乖乖手手都被扎伤了 小傻瓜 以后不许做了嘛' },
+     { src: 'https://cdn.jsdelivr.net/gh/xxy421/prettysun-us@main/images/new5.jpg', alt: '照片5', caption: '小乖宝宝给我做的小发发 做这些花了乖乖很多时间和精力嘛 我真的很心疼你嘛 怎么这么傻嘛乖乖'},
+    { src: 'https://cdn.jsdelivr.net/gh/xxy421/prettysun-us@main/images/new6.jpg', alt: '照片6', caption:'小猫的小爪印呀 好可爱呀 心都被萌化了嘛'},
+     { src: 'https://cdn.jsdelivr.net/gh/xxy421/prettysun-us@main/images/new8.jpg', alt: '照片8', caption: '小猫拔牙牙了嘛 流了超级多的血 我当时恨不得可以替乖乖痛嘛'}];                 
        
 
     return allImages;
