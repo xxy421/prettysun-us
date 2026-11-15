@@ -716,53 +716,8 @@ window.collectEasterEggImages = collectEasterEggImages;
  */
 function collectEasterEggImages() {
     // 根据实际的easter-eggs文件夹内容来收集图片
-    const allImages = [
-        // Food彩蛋
-        { src: 'images/food/easter-eggs/2019_08_04_fafa_01.jpg', alt: '家人美食趣事', caption: '厨艺大作战' },
-
-        // Travel彩蛋
-        { src: 'images/travel/easter-eggs/2024_08_05_xian_03.jpg', alt: '旅行趣闻', caption: '路上的惊喜' },
-        { src: 'images/travel/easter-eggs/2025_04_16_xian_03.jpg', alt: '旅行趣闻', caption: '风景之外的故事' },
-
-        // Daily彩蛋 (大量图片)
-        { src: 'images/daily/easter-eggs/2019_07_17_shangqiu_01.jpg', alt: '日常生活趣事', caption: '商丘小记' },
-        { src: 'images/daily/easter-eggs/2019_08_01_fan_01.jpg', alt: '日常生活趣事', caption: '粉丝趣事' },
-        { src: 'images/daily/easter-eggs/2019_08_04_shangqiu_01.jpg', alt: '日常生活趣事', caption: '商丘见闻' },
-        { src: 'images/daily/easter-eggs/2019_09_01_body_01.jpg', alt: '日常生活趣事', caption: '有趣瞬间' },
-        { src: 'images/daily/easter-eggs/2019_09_01_body_02.PNG', alt: '日常生活趣事', caption: '搞笑时刻' },
-        { src: 'images/daily/easter-eggs/2019_09_01_body_03.JPG', alt: '日常生活趣事', caption: '生活乐趣' },
-        { src: 'images/daily/easter-eggs/2019_09_01_body_04.JPG', alt: '日常生活趣事', caption: '开心一刻' },
-        { src: 'images/daily/easter-eggs/2019_09_01_body_05.JPG', alt: '日常生活趣事', caption: '欢乐时光' },
-        { src: 'images/daily/easter-eggs/2019_09_01_body_06.JPG', alt: '日常生活趣事', caption: '有趣见闻' },
-        { src: 'images/daily/easter-eggs/2019_09_01_body_07.JPG', alt: '日常生活趣事', caption: '生活花絮' },
-        { src: 'images/daily/easter-eggs/2019_12_19_body_02.jpg', alt: '日常生活趣事', caption: '节日乐事' },
-        { src: 'images/daily/easter-eggs/2019_12_19_body_07.jpg', alt: '日常生活趣事', caption: '开心节日' },
-        { src: 'images/daily/easter-eggs/2019_12_23_body_01.jpg', alt: '日常生活趣事', caption: '圣诞趣事' },
-        { src: 'images/daily/easter-eggs/2019_12_23_body_02.jpg', alt: '日常生活趣事', caption: '节日快乐' },
-        { src: 'images/daily/easter-eggs/2019_12_25_body_02.jpg', alt: '日常生活趣事', caption: '圣诞祝福' },
-        { src: 'images/daily/easter-eggs/2020_01_01_weixin_01.PNG', alt: '日常生活趣事', caption: '新年快乐' },
-        { src: 'images/daily/easter-eggs/2020_01_04_body_02.jpg', alt: '日常生活趣事', caption: '新年趣事' },
-        { src: 'images/daily/easter-eggs/2020_03_23_weixin_01.PNG', alt: '日常生活趣事', caption: '春日问候' },
-        { src: 'images/daily/easter-eggs/2020_09_24_weixin_01.PNG', alt: '日常生活趣事', caption: '中秋祝福' },
-        { src: 'images/daily/easter-eggs/2020_12_30_body_01.jpg', alt: '日常生活趣事', caption: '跨年快乐' },
-        { src: 'images/daily/easter-eggs/2020_12_30_body_02.jpg', alt: '日常生活趣事', caption: '新年将至' },
-        { src: 'images/daily/easter-eggs/2021_01_25_body_02.jpg', alt: '日常生活趣事', caption: '春节乐事' },
-        { src: 'images/daily/easter-eggs/2022_07_06_body_02.jpg', alt: '日常生活趣事', caption: '夏日趣闻' },
-        { src: 'images/daily/easter-eggs/2022_07_28_body_02.jpg', alt: '日常生活趣事', caption: '欢乐时光' },
-        { src: 'images/daily/easter-eggs/2023_01_30_body_02.jpg', alt: '日常生活趣事', caption: '春节趣事' },
-        { src: 'images/daily/easter-eggs/2023_01_31_body_02.jpg', alt: '日常生活趣事', caption: '新春快乐' },
-        { src: 'images/daily/easter-eggs/2023_07_26_body_02.jpg', alt: '日常生活趣事', caption: '夏日见闻' },
-        { src: 'images/daily/easter-eggs/2023_08_02_body_02.jpg', alt: '日常生活趣事', caption: '欢乐假期' },
-        { src: 'images/daily/easter-eggs/2023_08_07_weixin_01.PNG', alt: '日常生活趣事', caption: '节日祝福' },
-        { src: 'images/daily/easter-eggs/2023_10_08_weixin_01.PNG', alt: '日常生活趣事', caption: '国庆快乐' },
-        { src: 'images/daily/easter-eggs/2024_02_20_body_02.jpg', alt: '日常生活趣事', caption: '春节乐事' },
-        { src: 'images/daily/easter-eggs/2025_08_11_body_02.jpg', alt: '日常生活趣事', caption: '夏日趣事' },
-
-        // Couple彩蛋
-        { src: 'images/couple/easter-eggs/2019_06_25_zhengzhou_01.mov', alt: '情侣趣事', caption: '郑州之行' },
-        { src: 'images/couple/easter-eggs/2019_08_22_xian_01.mov', alt: '情侣趣事', caption: '西安Live Photo' },
-        { src: 'images/couple/easter-eggs/2020_12_12_xian_02.jpg', alt: '情侣趣事', caption: '温馨时刻' }
-    ];
+    const allImages = [];
+       
 
     return allImages;
 }
