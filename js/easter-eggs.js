@@ -587,7 +587,7 @@ function showEasterEggGallery() {
                 <button class="easter-egg-close">&times;</button>
             </div>
             <div class="easter-egg-description">
-                这些是日常生活中的趣事和搞笑瞬间 💕
+                这些是日常生活中的幸福瞬间💕
             </div>
             <div class="easter-egg-grid">
                 ${easterEggImages.map((img, index) => `
