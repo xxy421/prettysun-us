@@ -722,6 +722,7 @@ function collectEasterEggImages() {
     { src: 'https://cdn.jsdelivr.net/gh/xxy421/prettysun-us@main/images/new4.jpg', alt: '照片4', caption: '小宝宝给我做的小杯垫 乖乖手手都被扎伤了 小傻瓜 以后不许做了嘛' },
      { src: 'https://cdn.jsdelivr.net/gh/xxy421/prettysun-us@main/images/new5.jpg', alt: '照片5', caption: '小乖宝宝给我做的小发发 做这些花了乖乖很多时间和精力嘛 我真的很心疼你嘛 怎么这么傻嘛乖乖'},
     { src: 'https://cdn.jsdelivr.net/gh/xxy421/prettysun-us@main/images/new6.jpg', alt: '照片6', caption:'小猫的小爪印呀 好可爱呀 心都被萌化了嘛'},
+{ src: 'https://cdn.jsdelivr.net/gh/xxy421/prettysun-us@main/images/new9.jpg', alt: '照片9', caption:'原来爱就是命中注定嘛 我们注定就是要在一起的呀'},                
      { src: 'https://cdn.jsdelivr.net/gh/xxy421/prettysun-us@main/images/new8.jpg', alt: '照片8', caption: '小猫拔牙牙了嘛 流了超级多的血 我当时恨不得可以替乖乖痛嘛'}];                 
        
 
